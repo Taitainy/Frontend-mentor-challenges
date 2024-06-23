@@ -1,0 +1,144 @@
+* {
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+h1 {
+   font-weight: 800;
+   font-family: "Young Serif", serif;
+   padding-top: 20px;
+   font-size: 30px;
+}
+
+.a {
+    font-family: "Outfits", sans-serif;
+    padding-top: 20px;
+    font-weight: 100;
+}
+
+.b {
+    margin-top: 20px;
+    font-family: "Outfits", sans-serif;
+    background-color:  hsl(30, 54%, 90%);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    padding-left: 18px;
+}
+
+span {
+    font-weight: 600;
+}
+
+ul {
+    line-height: 30px;
+    font-family: "Outfits", sans-serif;
+}
+
+.list li {
+    padding-left: 35px;
+    list-style-position: outside;
+}
+
+.list li:last-child {
+    padding-bottom: 20px;
+}
+
+.list li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+ol {
+    font-family: "Outfits", sans-serif;
+    line-height: 30px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-left: -30px;
+}
+
+@media only screen and (min-width:768px){
+    body {
+        background-color:  hsl(30, 54%, 90%);
+    }
+
+    main {
+        background-color: white;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 100px;
+        border-radius: 20px;
+    }
+
+    img {
+        padding: 30px;
+        border-radius: 20px;
+        width: 87%;
+    }
+    
+}
+
+@media only screen and (min-width:1024px){
+    body {
+        background-color:  hsl(30, 54%, 90%);
+    }
+
+    main {
+        background-color: white;
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-top: 100px;
+        border-radius: 20px;
+    }
+
+    img {
+        padding: 30px;
+        border-radius: 20px;
+        width: 87%;
+    }
+    
+}
+
+@media only screen and (min-width:1440px){
+    body {
+        background-color:  hsl(30, 54%, 90%);
+    }
+
+    main {
+        background-color: white;
+        margin-left: 500px;
+        margin-right: 500px;
+        margin-top: 100px;
+        border-radius: 20px;
+    }
+
+    img {
+        padding: 30px;
+        border-radius: 20px;
+        width: 87%;
+    }
+    
+}
